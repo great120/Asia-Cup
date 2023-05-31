@@ -1,0 +1,30 @@
+p {
+    font-size: larger;
+    font-family: cursive;
+}
+.img1 {
+    float: left;
+}
+.img2 {
+    height: 250px;
+    width: 250px;
+}
+table {
+    border-color: black solid;
+    background-color: green;
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: yellow;
+}
