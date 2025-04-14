@@ -6,242 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="39ZZ3-L82EYcv0VTe3pwv89gAWM722PLMwTSC3e5MtI" />
     <title>Asia Cup Cricket - History and Champions</title>
-    <style>
-        :root {
-            --primary-color: #1e3a8a;
-            --secondary-color: #4ade80;
-            --accent-color: #f59e0b;
-            --text-color: #333;
-            --light-bg: #f9fafb;
-            --table-header: #1e3a8a;
-            --table-row-even: #e5edff;
-            --table-row-odd: #ffffff;
+    <link rel="stylesheet" href="style.css">
+    <!-- Add this to the <head> section of your HTML -->
+
+<!-- Improved Meta Tags -->
+<meta name="description" content="Comprehensive guide to the Asia Cup cricket tournament - history, winners, formats, and team performances since 1984. Learn about India's 8 championships, Sri Lanka's 6 titles, and more.">
+<meta name="keywords" content="Asia Cup, cricket tournament, Asian Cricket Council, India cricket, Sri Lanka cricket, Pakistan cricket, ODI cricket, T20I cricket, cricket history, cricket championships">
+<meta name="author" content="Somesh">
+
+<!-- Open Graph Tags for Social Media Sharing -->
+<meta property="og:title" content="Asia Cup Cricket - History and Champions">
+<meta property="og:description" content="Explore the complete history of Asia Cup cricket tournament, featuring champions, host nations, and tournament formats since 1984.">
+<meta property="og:image" content="Asia_Cup_(logo).svg.png">
+<meta property="og:url" content="https://your-website-url.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Asia Cup Cricket - History and Champions">
+<meta name="twitter:description" content="Comprehensive resource on Asia Cup cricket history, winners, and tournament stats since 1984.">
+<meta name="twitter:image" content="Asia_Cup_(logo).svg.png">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://your-website-url.com">
+
+<!-- Schema.org Structured Data for Rich Results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": "Asia Cup Cricket Tournament",
+  "description": "The Asia Cup is a cricket tournament for Asian nations organized by the Asian Cricket Council.",
+  "url": "https://your-website-url.com",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Asian Cricket Council",
+    "url": "https://www.asiancricket.org"
+  },
+  "subEvent": [
+    {
+      "@type": "SportsEvent",
+      "name": "Asia Cup 2023",
+      "location": {
+        "@type": "Place",
+        "name": "Pakistan/Sri Lanka",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Sri Lanka"
         }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+      },
+      "winner": {
+        "@type": "SportsTeam",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "SportsEvent",
+      "name": "Asia Cup 2022",
+      "location": {
+        "@type": "Place",
+        "name": "United Arab Emirates",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "UAE"
         }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--light-bg);
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-            justify-content: center;
-            gap: 2rem;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: var(--accent-color);
-        }
-        
-        main {
-            padding: 2rem 0;
-        }
-        
-        section {
-            margin-bottom: 3rem;
-        }
-        
-        h1, h2, h3 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-        
-        h2 {
-            font-size: 2rem;
-            border-bottom: 2px solid var(--secondary-color);
-            padding-bottom: 0.5rem;
-            margin-top: 2rem;
-        }
-        
-        p {
-            margin-bottom: 1.2rem;
-            font-size: 1.1rem;
-        }
-        
-        .hero {
-            text-align: center;
-            padding: 2rem 0;
-            background-color: var(--primary-color);
-            color: white;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-        }
-        
-        .hero h1 {
-            color: white;
-        }
-        
-        .hero p {
-            max-width: 800px;
-            margin: 0 auto 1rem;
-        }
-        
-        .intro {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-        
-        @media (max-width: 768px) {
-            .intro {
-                flex-direction: column;
-            }
-        }
-        
-        .intro-text {
-            flex: 3;
-        }
-        
-        .intro-image {
-            flex: 1;
-            text-align: center;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        
-        .logo-container {
-            text-align: center;
-            margin: 2rem 0;
-        }
-        
-        .logo {
-            height: 250px;
-            width: auto;
-        }
-        
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 2rem 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        
-        th, td {
-            padding: 1rem;
-            text-align: left;
-            border: none;
-        }
-        
-        th {
-            background-color: var(--table-header);
-            color: white;
-            font-weight: 600;
-        }
-        
-        tr:nth-child(even) {
-            background-color: var(--table-row-even);
-        }
-        
-        tr:nth-child(odd) {
-            background-color: var(--table-row-odd);
-        }
-        
-        footer {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 1.5rem 0;
-            margin-top: 3rem;
-        }
-        
-        footer a {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-        
-        .stats-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-        
-        .stat-card {
-            background-color: white;
-            border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 3rem;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
-        
-        .stat-title {
-            font-size: 1.2rem;
-            color: var(--text-color);
-        }
-        
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                gap: 0.5rem;
-                text-align: center;
-            }
-            
-            table {
-                display: block;
-                overflow-x: auto;
-            }
-            
-            .stat-card {
-                padding: 1rem;
-            }
-        }
-    </style>
+      },
+      "winner": {
+        "@type": "SportsTeam",
+        "name": "Sri Lanka"
+      }
+    }
+  ],
+  "sport": "Cricket"
+}
+</script>
+
 </head>
 <body>
     <header>
